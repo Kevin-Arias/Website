@@ -187,18 +187,34 @@ section.education.h4 {
 }
 
 section.award {
-  padding: 5rem;
+
+  padding: 40px 3rem;
   background-color: #384245;
 }
 
-* .featured-text {
-  padding: 0 0 0 2rem;
-  border-left: 0.5rem solid #64a19d;
+.award .featured-text {
+  padding: 2rem;
 }
 
-* .project-text {
-  padding: 5rem;
+@media (min-width: 992px) {
+  .award .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
 }
+
+.award .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .award .project-text {
+    padding: 5rem;
+  }
+  
+}
+
 
 * .project-text hr {
   border-color: #ecb807;
