@@ -90,7 +90,7 @@ h6 {
   position: relative;
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(15, 15, 15, 0.8)), to(rgba(15, 15, 15, 0.8))), url("../img/background.jpg");
@@ -101,19 +101,28 @@ h6 {
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
   color: white;
 }
 
+.masthead h2 {
+  font-size: 1rem;
+}
+
+
+
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 100%;
   }
   .masthead h1 {
     font-size: 3rem;
     color: white;
+  }
+  .masthead h2 {
+    font-size: 2rem;
   }
 
 
@@ -204,7 +213,7 @@ section.award {
 }
 
 .award .project-text {
-  padding: 3rem;
+  padding: 2rem;
   font-size: 90%;
 }
 
