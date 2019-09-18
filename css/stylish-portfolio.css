@@ -231,6 +231,12 @@ section.award {
   width: 30%;
 }
 
+
+
+
+
+
+
 * .bg-black {
   background-color: #1D809F !important;
 }
@@ -308,12 +314,26 @@ section.port {
   padding-top: 60px;
 }
 
+
+@media (min-width: 992px) {
+  .port .inner-image {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    animation: heartbeat 1.75s linear infinite;
+  }
+
+}
+
 * .inner-image {
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 20px;
+  right: 20px;
   animation: heartbeat 1.75s linear infinite;
 }
+
+
+
 
 @keyframes heartbeat {
   0%{transform: scale(1,1);}
@@ -472,13 +492,27 @@ section.port {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 1rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+}
+.portfolio-item img {
+  -webkit-transition: -webkit-clip-path 0.25s ease-out;
+  -webkit-clip-path: inset(-1px);
+  clip-path: inset(-1px);
+}
+.portfolio-item:hover img {
+  -webkit-clip-path: inset(1rem);
+  clip-path: inset(1rem);
+}
+.portfolio-item:hover .caption {
+  background-color: rgba(29, 128, 159, 0.9);
+  -webkit-clip-path: inset(1rem);
+  clip-path: inset(1rem);
 }
 
 @media (min-width: 992px) {
@@ -497,6 +531,15 @@ section.port {
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
+  }
+  .portfolio-item .caption .caption-content h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .portfolio-item .caption .caption-content p {
+    font-weight: 300;
+    font-size: 1.2rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
