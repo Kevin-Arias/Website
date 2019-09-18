@@ -492,13 +492,13 @@ section.port {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .portfolio-item img {
   -webkit-transition: -webkit-clip-path 0.25s ease-out;
