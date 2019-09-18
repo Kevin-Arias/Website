@@ -159,6 +159,7 @@ h1.bio {
 }
 section.biography {
   background: #1D809F;
+  padding-bottom: 75px;
 }
 * .pic {
 
@@ -175,7 +176,9 @@ section.education {
   background-size: cover;
 }
 
-
+* .language-text {
+  font-size: 1.5rem;
+}
 
 section.education.h4 {
   color: #000000;
@@ -183,7 +186,7 @@ section.education.h4 {
 
 * .langrow {
 
-  padding-left: 130px;
+  padding-left: 110px;
 }
 
 * .langimg {
