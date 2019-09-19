@@ -184,9 +184,13 @@ section.education.h4 {
   color: #000000;
 }
 
+@media(min-width: 992px) {
+
+}
+
 * .langrow {
 
-  padding-left: 110px;
+  padding-left: 80px;
 }
 
 * .langimg {
@@ -194,7 +198,7 @@ section.education.h4 {
 }
 
 * .langrowrel {
-  padding-left: 50px;
+  padding-left: 30px;
 
 }
 
