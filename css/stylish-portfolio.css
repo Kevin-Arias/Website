@@ -166,6 +166,16 @@ section.biography {
   vertical-align: 7em;
 }
 
+
+@media(min-width: 992px) {
+  .biography p {
+    font-size: 20px;
+  }
+}
+
+
+
+
 section.education {
   padding-top: 40px;
   padding-bottom: 40px;
