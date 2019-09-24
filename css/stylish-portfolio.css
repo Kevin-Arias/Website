@@ -177,7 +177,7 @@ section.biography {
 
 
 section.education {
-  padding-top: 40px;
+  padding-top: 4rem;
   padding-bottom: 40px;
   background: -webkit-gradient(linear, left top, right top, from(rgba(15, 15, 15, 0.85)), to(rgba(15, 15, 15, 0.85))), url("../img/bay_photo.jpg");
   background: linear-gradient(90deg, rgba(15, 15, 15, 0.85) 0%, rgba(15, 15, 15, 0.85) 100%), url("../img/bay_photo.jpg");
