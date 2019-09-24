@@ -216,8 +216,8 @@ section.education.h4 {
 
 
 section.award {
-
-  padding: 60px 3rem;
+  padding: 10rem 0;
+  
   background-color: #384245;
   padding-bottom: 85px;
 }
@@ -235,6 +235,7 @@ section.award {
 
 .award .project-text {
   padding: 2rem;
+  font-size: 90%;
   
 }
 .award .project-text h4 {
@@ -246,7 +247,7 @@ section.award {
 
 @media (min-width: 992px) {
   .award .project-text {
-    padding: 5rem;
+    padding: 3rem;
     
   }
   .award .project-text h4 {
